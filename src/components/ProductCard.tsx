@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { useCart } from '@/context/CartContext';
 import { Product } from '@/data/products';
 import { Button } from '@/components/ui/button';
@@ -15,9 +15,14 @@ const formatPrice = (price: number): string => {
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const { addItem } = useCart();
+  const [imageError, setImageError] = useState(false);
 
   const handleAddToCart = () => {
     addItem(product);
+  };
+
+  const handleImageError = () => {
+    setImageError(true);
   };
 
   return (
@@ -32,9 +37,10 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <span className="sale-badge">On Sale</span>
         )}
         <img
-          src={product.image}
+          src={imageError ? 'https://images.unsplash.com/photo-1579113800032-c38bd7635818?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80' : product.image}
           alt={product.name}
-          className="product-image h-full w-full slide-up"
+          className="product-image h-full w-full slide-up object-contain"
+          onError={handleImageError}
         />
       </div>
       <div className="p-4">
