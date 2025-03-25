@@ -16,7 +16,7 @@ const products: Product[] = [
     id: "fruit-001",
     name: "Bananas",
     price: 0.59,
-    image: "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://cdn11.bigcommerce.com/s-1ly92eod7l/images/stencil/1280x1280/products/647/790/Product_Produce_Banana__90431.1737080777.jpg?c=1&imbypass=on",
     category: "fruits",
     unit: "lb",
     onSale: false
@@ -26,7 +26,7 @@ const products: Product[] = [
     name: "Apples",
     price: 1.29,
     originalPrice: 1.79,
-    image: "https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://domf5oio6qrcr.cloudfront.net/medialibrary/11525/conversions/0a5ae820-7051-4495-bcca-61bf02897472-thumb.jpg",
     category: "fruits",
     unit: "lb",
     onSale: true
@@ -35,7 +35,7 @@ const products: Product[] = [
     id: "fruit-003",
     name: "Oranges",
     price: 1.49,
-    image: "https://images.unsplash.com/photo-1582979512210-99b6a53386f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Gt37ySy_z-5JXJt6GNV4JU8NWG_yyBBEbw&s",
     category: "fruits",
     unit: "lb",
     onSale: false
@@ -45,7 +45,7 @@ const products: Product[] = [
     name: "Strawberries",
     price: 2.99,
     originalPrice: 3.99,
-    image: "https://images.unsplash.com/photo-1518635017498-87f514b751ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://m.media-amazon.com/images/I/8143FLAy6GL._AC_UF894,1000_QL80_.jpg",
     category: "fruits",
     unit: "16 oz",
     onSale: true
@@ -56,7 +56,7 @@ const products: Product[] = [
     id: "veg-001",
     name: "Carrots",
     price: 1.19,
-    image: "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://cdn11.bigcommerce.com/s-kc25pb94dz/images/stencil/1280x1280/products/271/762/Carrot__40927.1634584458.jpg",
     category: "vegetables",
     unit: "lb",
     onSale: false
@@ -65,7 +65,7 @@ const products: Product[] = [
     id: "veg-002",
     name: "Broccoli",
     price: 1.49,
-    image: "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://www.healthyfood.com/wp-content/uploads/2017/03/What_to_do_with_broccoli-1-500x375.jpg",
     category: "vegetables",
     unit: "head",
     onSale: false
@@ -75,7 +75,7 @@ const products: Product[] = [
     name: "Spinach",
     price: 1.99,
     originalPrice: 2.49,
-    image: "https://images.unsplash.com/photo-1576045057995-568f588f82fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://www.google.com/search?q=spinach&sca_esv=c2b470a1b23ad7ba&rlz=1CAYPBE_enUS1154&udm=2&biw=1187&bih=533&ei=kdLiZ-CgOsSvptQPvYGvuA8&oq=spi&gs_lp=EgNpbWciA3NwaSoCCAAyChAAGIAEGEMYigUyChAAGIAEGEMYigUyDRAAGIAEGLEDGEMYigUyChAAGIAEGEMYigUyCBAAGIAEGLEDMgoQABiABBhDGIoFMggQABiABBixAzIIEAAYgAQYsQMyChAAGIAEGEMYigUyChAAGIAEGEMYigVInBVQAFjwC3ABeACQAQCYAbIBoAGaA6oBAzIuMrgBA8gBAPgBAZgCBaAC-APCAgsQABiABBixAxiDAcICBRAAGIAEmAMAkgcFMy4xLjGgB6YTsgcFMi4xLjG4B90D&sclient=img&safe=active&ssui=on#vhid=GDow6G60LcBqpM&vssid=mosaic",
     category: "vegetables",
     unit: "bunch",
     onSale: true
