@@ -35,7 +35,7 @@ const products: Product[] = [
     id: "fruit-003",
     name: "Oranges",
     price: 1.49,
-    image: "https://images.unsplash.com/photo-1547514701-42782101795e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://images.unsplash.com/photo-1582979512210-99b6a53386f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
     category: "fruits",
     unit: "lb",
     onSale: false
@@ -56,7 +56,7 @@ const products: Product[] = [
     id: "veg-001",
     name: "Carrots",
     price: 1.19,
-    image: "https://images.unsplash.com/photo-1522184216316-3c25379f9760?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
     category: "vegetables",
     unit: "lb",
     onSale: false
@@ -105,7 +105,7 @@ const products: Product[] = [
     name: "Eggs",
     price: 2.49,
     originalPrice: 3.29,
-    image: "https://images.unsplash.com/photo-1509479100390-67f4b2355661?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
     category: "dairy",
     unit: "dozen",
     onSale: true
@@ -123,7 +123,7 @@ const products: Product[] = [
     id: "dairy-004",
     name: "Yogurt",
     price: 0.99,
-    image: "https://images.unsplash.com/photo-1551893134-58b50f69e8fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://images.unsplash.com/photo-1505252585461-04db1eb84625?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
     category: "dairy",
     unit: "6 oz",
     onSale: false
@@ -135,7 +135,7 @@ const products: Product[] = [
     name: "Bread",
     price: 2.29,
     originalPrice: 2.99,
-    image: "https://images.unsplash.com/photo-1549931319-a545dcf3bc7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://images.unsplash.com/photo-1598373182133-52452f7691ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
     category: "grains",
     unit: "loaf",
     onSale: true
@@ -144,7 +144,7 @@ const products: Product[] = [
     id: "grain-002",
     name: "Rice",
     price: 1.99,
-    image: "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
     category: "grains",
     unit: "2 lb",
     onSale: false
@@ -163,7 +163,7 @@ const products: Product[] = [
     name: "Cereal",
     price: 3.29,
     originalPrice: 3.99,
-    image: "https://images.unsplash.com/photo-1521483756775-c37af386fce9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://images.unsplash.com/photo-1545610694-1f5ff6281ab6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
     category: "grains",
     unit: "18 oz",
     onSale: true
@@ -184,7 +184,7 @@ const products: Product[] = [
     name: "Ground Beef",
     price: 4.49,
     originalPrice: 5.29,
-    image: "https://images.unsplash.com/photo-1615937657715-bc7b4b7962c1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://images.unsplash.com/photo-1602470520998-f4a52199a3d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
     category: "protein",
     unit: "lb",
     onSale: true
@@ -193,7 +193,7 @@ const products: Product[] = [
     id: "meat-003",
     name: "Canned Tuna",
     price: 1.29,
-    image: "https://images.unsplash.com/photo-1614182503524-1a59ba115fe0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://images.unsplash.com/photo-1590779033100-9f60a05a013d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
     category: "protein",
     unit: "5 oz",
     onSale: false
@@ -202,7 +202,7 @@ const products: Product[] = [
     id: "meat-004",
     name: "Peanut Butter",
     price: 2.99,
-    image: "https://images.unsplash.com/photo-1612548049386-e9c76c01c9f2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://images.unsplash.com/photo-1621263764928-df1444c5c876?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
     category: "protein",
     unit: "16 oz",
     onSale: false
@@ -214,7 +214,7 @@ const products: Product[] = [
     name: "Canned Beans",
     price: 0.89,
     originalPrice: 1.19,
-    image: "https://images.unsplash.com/photo-1594292291577-3f40a0e5ab5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://images.unsplash.com/photo-1612187279150-48bb5bbc34d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
     category: "pantry",
     unit: "15 oz",
     onSale: true
@@ -223,7 +223,7 @@ const products: Product[] = [
     id: "pantry-002",
     name: "Pasta Sauce",
     price: 1.99,
-    image: "https://images.unsplash.com/photo-1613478223719-2ab802602423?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://images.unsplash.com/photo-1619740455993-9e612b659471?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
     category: "pantry",
     unit: "24 oz",
     onSale: false
@@ -232,7 +232,7 @@ const products: Product[] = [
     id: "pantry-003",
     name: "Soup",
     price: 1.29,
-    image: "https://images.unsplash.com/photo-1583608354647-9e47f3555093?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://images.unsplash.com/photo-1620791952534-77d50e269bda?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
     category: "pantry",
     unit: "can",
     onSale: false
@@ -242,7 +242,7 @@ const products: Product[] = [
     name: "Cooking Oil",
     price: 3.49,
     originalPrice: 4.29,
-    image: "https://images.unsplash.com/photo-1620577438168-c1898888fb7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
     category: "pantry",
     unit: "16 oz",
     onSale: true
